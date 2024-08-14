@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --background-color: #00030C;
+    --color: #FFFFFF;
+    --font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--color);
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cabecalho {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0.75em 3.5em 0 3.5em;
+}
+
+.cabecalho__conteudo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__conteudo__principal {
+    align-items: center;
+    display: flex;
+    gap: 0.5em;
+}
+
+.cabecalho__icone {
+    height: 8%;
+    margin-bottom: 0.25em;
+    width: 8%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5em 5em 0 5em;
+}
+
+label {
+    display: none;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.formulario__campo {
+    align-items: center;
+    background: transparent;
+    border: 2px solid var(--color);
+    border-radius: 15px;
+    color: var(--color);
+    font-family: var(--font-family);
+    font-size: 18px;
+    outline: unset;
+    padding: 0.6em;
+    width: 500px;
+}
